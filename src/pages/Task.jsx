@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { createTask, editTask, removeTaskAsync,fetchTasks } from "../operations/taskApi";
-import { setLoading, setTasks } from '../slices/taskSlice';
-import axios from 'axios';
+
+
 import toast from 'react-hot-toast';
 
 const Task = () => {
